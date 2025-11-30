@@ -287,3 +287,4 @@ for iter in range(max_iters):
 context = torch.zeros((1,1), dtype=torch.long, device=device)
 generated_tokens = model.generate(context, max_new_tokens=500)[0].tolist()
 print(decode(generated_tokens))
+#open('generated_novel.txt', 'w').write(decode(m.generate(context, max_new_tokens=10000)[0].tolist()))
