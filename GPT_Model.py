@@ -45,7 +45,6 @@ def get_batch(split):
     data_src = train_data if split == 'train' else val_data
     ix = torch.randint(len(data_src) - block_size, (batch_size,))
 
-    # FIX: need list comprehension inside torch.stack
     x = torch.stack([data_src[i:i+block_size] for i in ix])
     y = torch.stack([data_src[i+1:i+block_size+1] for i in ix])
 
