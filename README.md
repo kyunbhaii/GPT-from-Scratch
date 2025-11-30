@@ -82,16 +82,13 @@ Every major component is hand-coded:
 ```
 GPT-from-Scratch/
 │
-├── GPT_Model.py              # Full model implementation & training script
-├── gpt_model.ipynb           # Colab-ready interactive notebook
-├── gpt_checkpoint.pt         # Pretrained model weights
-├── generated_novel.txt       # 10k-word generated sample
-├── input.txt                 # Shakespeare dataset (training data)
-├── README.md                 # This file
-└── notes/                    # Educational documentation
-    ├── logits_guide.md
-    ├── training_guide.md
-    └── generation_guide.md
+├── GPT_Model.py
+├── gpt_model.ipynb
+├── gpt_checkpoint.pt
+├── generated_novel.txt
+├── input.txt
+├── README.md
+└── notes
 ```
 
 ---
