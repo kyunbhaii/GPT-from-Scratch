@@ -19,4 +19,4 @@ Reference Video
 
 This project follows the implementation demonstrated by Andrej Karpathy in his YouTube lecture: [Karpathy YT Lecture](https://www.youtube.com/watch?v=kCc8FmEb1nY)￼
 
-Watching the video will give you a clearer understanding of each step in the model. This repo includes an additional Jupyter Notebook (IPYNB) version to make the learning process easier and more interactive.
+Watching the video will give you a clearer understanding of each step in the model. This repo includes some additional files to make the learning process easier and more interactive.
