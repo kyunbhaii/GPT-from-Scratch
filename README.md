@@ -83,11 +83,14 @@ Every major component is hand-coded:
 GPT-from-Scratch/
 │
 ├── GPT_Model.py
+├── Biagram_Model.py
 ├── gpt_model.ipynb
-├── gpt_checkpoint.pt
+├── GPT_from_Scratch.ipynb
+├── GPT_checkpoint.pt
 ├── generated_novel.txt
 ├── input.txt
 ├── README.md
+├── .gitignore
 └── notes
 ```
 
